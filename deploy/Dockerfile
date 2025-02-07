@@ -1,7 +1,7 @@
 ARG RELEASE_ID
 ARG CI_BUILD_DATE
 
-FROM node:19-alpine as base
+FROM node:23.7.0-alpine as base
 
 # Installs latest Chromium package.
 RUN \
